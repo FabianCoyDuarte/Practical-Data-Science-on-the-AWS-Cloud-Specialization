@@ -1,0 +1,73 @@
+
+<!-- saved from url=(0083)https://labs.vocareum.com/web/2397470/406379.0/ASNLIB/public/docs/lang/en/README.md -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="./style.css">
+</head><body><h1>Week 1 lab:<br>Register and visualize dataset</h1>
+<ul>
+<li><a href="https://labs.vocareum.com/web/2397470/406379.0/ASNLIB/public/docs/lang/en/README.md#id-l1section1">Setup the lab</a></li>
+<li><a href="https://labs.vocareum.com/web/2397470/406379.0/ASNLIB/public/docs/lang/en/README.md#id-l1section2">Lab content: Ingest and register the dataset. Visualize data.</a></li>
+<li><a href="https://labs.vocareum.com/web/2397470/406379.0/ASNLIB/public/docs/lang/en/README.md#id-l1section3">Finish the lab</a></li>
+</ul>
+<hr>
+<div id="id-l1section1">
+<h2>Setup the lab</h2>
+<p><em>Note:</em> The lab uses Amazon Web Services (AWS) which take some time to spin up. You may need to wait a few minutes for the lab to open.</p>
+<ol>
+<li>
+<p>Click on <img src="./ButtonStartLab.png" alt=""> button to begin the lab.</p>
+</li>
+<li>
+<p>Click on <img src="./ButtonAWS.png" alt=""> link (top left), which will open AWS Management Console.<br>
+<em>Note:</em> If you see the window like in the following printscreen, click on <strong>logout</strong> link, close the window and click on <img src="./ButtonAWS.png" alt=""> link again.</p>
+<p><img src="./C1W1_AWSLogout.png" alt="image alt &gt;&lt;"></p>
+</li>
+<li>
+<p>Go to <strong>Amazon SageMaker</strong>.</p>
+<p><img src="./C1W1_SageMaker.png" alt="image alt &gt;&lt;"></p>
+</li>
+<li>
+<p>Click on <strong>SageMaker Domain Studio</strong>.</p>
+<p><img src="./C1W1_SageMakerStudio.png" alt="image alt &gt;&lt;"></p>
+</li>
+<li>
+<p>Click on <strong>Launch app</strong> -&gt; <strong>Studio</strong>. You may need to wait for a few moments and then hit a refresh button to see the <strong>Launch app</strong> button.</p>
+<p><img src="./C1W1_OpenStudio.png" alt="image alt &gt;&lt;"></p>
+</li>
+<li>
+<p>Wait a few moments...</p>
+<p><img src="./C1W1_OpenStudioWait.png" alt="image alt &gt;&lt;"></p>
+<p>...welcome to SageMaker Studio.</p>
+<p><img src="./C1W1_SMStudioWelcome.png" alt="image alt &gt;&lt;"></p>
+<p><em>Note:</em> If you do not see the SageMaker Studio screen shown above, you may need to disable pop up blockers and/or VPN.    </p>
+</li>
+<li>
+<p>Open System terminal.</p>
+<p><img src="./C1W1_SystemTerminal.png" alt="image alt &gt;&lt;"></p>
+</li>
+<li>
+<p>Download the lab running the following command in the System terminal: <br>
+<em>aws s3 cp --recursive s3://dlai-practical-data-science/labs/c1w1-474798/ ./</em></p>
+<p><img src="./C1W1_NotebookDownload.png" alt="image alt &gt;&lt;"></p>
+<p><em>Note:</em> You might need to update the environment to see the downloaded notebook.</p>
+<p><img src="./C1W1_StudioUpdate.png" alt="image alt &gt;&lt;"></p>
+</li>
+<li>
+<p>Open <code>C1_W1_Assignment.ipynb</code> notebook (if you need to set the kernel, please choose "Python 3 (Data Science)").</p>
+<p><img src="./C1W1_NotebookOpen.png" alt="image alt &gt;&lt;"></p>
+</li>
+</ol>
+<div id="id-l1section2">
+<h2>Lab content: Ingest and register the dataset. Visualize data.</h2>
+<ol start="10">
+<li>Follow the lab instructions in the <code>C1_W1_Assignment.ipynb</code> notebook.</li>
+</ol>
+<div id="id-l1section3">
+<h2>Finish the lab</h2>
+<ol start="11">
+<li>Click on <img src="./ButtonSubmit.png" alt=""> button. To see the results of grading click on <img src="./ButtonGrades.png" alt=""> button. You need at least 70 out of 100 score to pass! Click on <img src="./ButtonSubmissionReport.png" alt=""> to review the test results and the feedback.</li>
+</ol>
+<p><em>Note:</em> If you want <strong>to improve your score</strong>, you can go back to the console, make changes and click on <img src="./ButtonSubmit.png" alt=""> button again (the number of submissions is unlimited). Make sure that before the submission you run the last cell of the notebook, which uploads it to the S3 bucket. Then the changes will be taken into account for grading.</p>
+<p><em>Note:</em> The AWS account, which was created for the lab, <strong>expires within 2 hours</strong>. During this period you can close all of the console windows and come back to your work later. After the expiration the current AWS account will go through a cleanup procedure (which will take up to 25 minutes), then the access to the new account will take longer (up to 20 minutes) and your previous work will not be saved. <strong>To save the notebook locally</strong> before the expiration you can download the notebook from the Amazon SageMaker Studio (right click on the notebook -&gt; “Download” command).</p>
+<ol start="12">
+<li>Close all the windows of the AWS Management Console.</li>
+</ol><script defer="" src="./vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;795d1b5879d267e1&quot;,&quot;token&quot;:&quot;a73834a4a1444e9ab89e8da06da41720&quot;,&quot;version&quot;:&quot;2022.11.3&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+</div></div></div></body></html>
